@@ -1,3 +1,16 @@
+FORKED VERSION PRE-CONFIGURED FOR OLLAMA LOCAL:
+
+RUN following command to start, but first run ollama run (llm)
+
+Then run this command:
+
+PGPT_PROFILES=ollama poetry run python -m private_gpt
+
+then go to web url provided, you can then upload files for document query, document search as well as standard ollama LLM prompt interaction.
+
+Work in progress. Will be building off imartinez work to make a full operating RAG system for local offline use against file system and remote directories.
+
+
 # 🔒 PrivateGPT 📑
 
 [![Tests](https://github.com/imartinez/privateGPT/actions/workflows/tests.yml/badge.svg)](https://github.com/imartinez/privateGPT/actions/workflows/tests.yml?query=branch%3Amain)
